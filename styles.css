@@ -1,0 +1,94 @@
+body {
+    font-family: Bahnschrift, SemiBold;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#banner{
+    /* object-fit: cover; */
+    display:block;
+    margin:auto;
+    width:800px;
+}
+
+.location{
+    color: gray
+}
+
+#navbar{
+    padding: 8px;
+    margin-left: 28%;
+}
+
+#navlogo{
+    height: 30px;
+
+}
+
+#about{
+    display: flex;
+}
+
+#team{
+    width: 50%;
+}
+
+#description{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    #teamimage{
+        width: 100%;
+        border-radius: 5px;
+    }
+    #about{
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 8px;
+    }
+    h2{
+        text-align: center;
+    }
+    #jobs{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 8px;
+    }
+    h3{
+        margin-bottom: 0px
+    }
+    .apply{
+        float: right;
+    }
+    a{
+        text-decoration: none;
+    }
+    #footer{
+        background-color: lightslategray;
+        padding: 8px;
+        margin-top: 20px;
+        margin-left:28%;
+        margin-right:28%;
+        text-align:center;
+
+    }
+    #footer-links li{
+        list-style: none;
+        text-align: center;
+        display: inline;
+    }
+.copyright{
+    color: lightblue;
+}
